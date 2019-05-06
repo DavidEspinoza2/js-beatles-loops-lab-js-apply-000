@@ -21,7 +21,7 @@ function iLoveTheBeatles(number){
   var myArr = [];
   do{
 	number++;
-    myArr[15 - number] = ["I love the Beatles!"];
+    myEmptyArray.push("I love the Beatles!");
     //myArr[15 - number] = ["I love the Beatles!"];
     if(number > 15){
       myArr = "I love the Beatles!";
