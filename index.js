@@ -24,7 +24,7 @@ function iLoveTheBeatles(number){
     myArr[15 - number] = ["I love the Beatles!"];
     //myArr[15 - number] = ["I love the Beatles!"];
     if(number > 15){
-      myArr = ["I love the Beatles!"];
+      myArr = "I love the Beatles!";
     }
   }while(number < 15)
 	return myArr;
