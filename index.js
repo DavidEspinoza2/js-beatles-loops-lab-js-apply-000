@@ -20,9 +20,12 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(number){
   var myArr = [];
   do{
-    myArr = ["I love the Beatles!"];
-    number++;
+	number++;
+    myArr[15 - number] = ["I love the Beatles!"];
+    //myArr[15 - number] = ["I love the Beatles!"];
+    if(number > 15){
+      myArr = ["I love the Beatles!"];
+    }
   }while(number < 15)
-
-	return myArr[15 - number];
+	return myArr;
 }
